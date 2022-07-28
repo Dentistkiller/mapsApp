@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mapApp.lasttest.firstFragment">
+
+    <Button
+        android:id="@+id/btnSave1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="save"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <RadioGroup
+        android:id="@+id/myRadioGroup1"
+        android:layout_width="199dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.713">>
+
+        <RadioButton
+            android:id="@+id/rbnDriving1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Driving"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/rbnBicycle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bicycle"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/rbnWalking1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Walking"
+            android:textSize="18dp" />
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/sthMSystem1"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:text="metric"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.67"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448" />
+
+    <TextView
+        android:id="@+id/txv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="                          measurement systems"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.369" />
+
+    <TextView
+        android:id="@+id/txv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                       select mode of transport"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:text="this is the settings page just change ur settings and click save"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
